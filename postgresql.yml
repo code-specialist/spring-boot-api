@@ -1,0 +1,15 @@
+# File to deploy PostgreSQL
+version: '3.4'
+
+services:
+
+  postgres:
+    image: postgres
+    container_name: skill-api-postgres
+    hostname: skill-api-postgres
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_USER: pg-user
+      POSTGRES_PASSWORD: password
