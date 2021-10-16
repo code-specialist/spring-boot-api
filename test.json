@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "name": "Yannic",
+    "skills": [
+      {
+        "id": 1,
+        "name": "Software Development"
+      },
+      {
+        "id": 3,
+        "name": "Sleep"
+      },
+      {
+        "id": 2,
+        "name": "Eat"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Bud",
+    "skills": [
+      {
+        "id": 3,
+        "name": "Sleep"
+      },
+      {
+        "id": 2,
+        "name": "Eat"
+      }
+    ]
+  }
+]
